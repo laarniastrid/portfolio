@@ -44,6 +44,13 @@ body {
   align-items: center;
 }
 
+.nav-bar a {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
+
+
 .nav-bar-top {
 
 }
