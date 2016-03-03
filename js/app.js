@@ -5,7 +5,7 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: '../views/main.html',
+      templateUrl: '../views/home.html',
       controller: 'mainCtrl',
     }) // end home
 

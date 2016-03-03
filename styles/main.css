@@ -3,6 +3,7 @@
 html, body {
   box-sizing: border-box;
   padding: 0;
+  font-family: Verdana, Arial;
 }
 
 /**, ::before, ::after {
@@ -76,4 +77,24 @@ body {
 
 .nav-bar-bottom i {
 
+}
+
+/* ----- page content ----- */
+.pageContent {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  margin: -40% 0 0 -40%;
+  /*border: 5px grey solid;*/
+
+  padding-top: 25px;
+  /*display: flex;*/
+}
+
+.content-title {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }

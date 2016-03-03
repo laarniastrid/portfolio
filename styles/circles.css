@@ -1,13 +1,13 @@
 /* ----- circles ---- */
-.circle-holder {
+/*.circle-holder {
   width: 80%;
   height: 80%;
-  /*position: static;*/
+  position: absolute;
   top: 55%;
   left: 45%;
   margin: -40% 0 0 -40%;
-  /*border: 5px grey solid;*/
-}
+  border: 5px grey solid;
+}*/
 
 .circle {
   width: 50px;
@@ -15,7 +15,7 @@
   border-radius: 100%;
   margin: -25px 0 0 -25px;
   position: absolute;
-  transform: scale();
+  /*transform: scale();*/
 }
 
 .c1 {
@@ -56,6 +56,4 @@
 .pulse {
     -webkit-animation: pulse 5s ease infinite;
     animation: pulse 5s ease infinite;
-
-
 }
