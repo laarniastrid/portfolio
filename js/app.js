@@ -15,7 +15,7 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
     }) // end skills
 
     .state('contact', {
-      url: 'contact',
+      url: '/contact',
       templateUrl: '../views/contact.html',
     }) // end contact
 

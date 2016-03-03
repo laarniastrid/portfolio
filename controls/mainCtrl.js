@@ -13,28 +13,28 @@ angular.module('myApp')
   // skills button
   $scope.skillsVal = "Skills";
   $scope.skillsIcon = "fa fa-gear fa-3x";
-  $scope.skillsRoute = "/";
+  $scope.skillsRoute = "skills";
 
   // contact button
   $scope.contactVal = "Contact";
   $scope.contactIcon = "fa fa-envelope-o fa-3x";
-  $scope.contactRoute = "/";
+  $scope.contactRoute = "contact";
 
   /* nav bottom buttons */
   // github button
   // $scope.gitVal = "Github";
   $scope.gitIcon = "fa fa-github-alt fa-3x";
-  $scope.gitRoute = "/";
+  $scope.gitRoute = "home";
 
   // linkedin button
   // $scope.linkedVal = "LinkedIn";
   $scope.linkedIcon = "fa fa-linkedin fa-3x";
-  $scope.linkedRoute = "/";
+  $scope.linkedRoute = "home";
 
   // twitterbutton
   // $scope.twitVal = "Twitter";
   $scope.twitIcon = "fa fa-twitter fa-3x";
-  $scope.homeRoute = "/";
+  $scope.twitRoute = "home";
 
 
 }) // end mainCtrl

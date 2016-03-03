@@ -5,7 +5,7 @@ angular.module('myApp')
   return {
     restrict: 'E',
     templateUrl: '../views/navBar.html',
-    // controller: 'navCtrl',
+    // controller: 'mainCtrl',
     scope: {
       link: '=',
       name: '=',
