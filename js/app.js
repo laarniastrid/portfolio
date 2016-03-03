@@ -5,18 +5,20 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
   $stateProvider
     .state('home', {
       url: '/',
-      controller: 'mainCtrl',
       templateUrl: '../views/main.html',
+      controller: 'mainCtrl',
     }) // end home
 
     .state('skills', {
       url: '/skills',
       templateUrl: '../views/skills.html',
+      controller: 'mainCtrl',
     }) // end skills
 
     .state('contact', {
       url: '/contact',
       templateUrl: '../views/contact.html',
+      controller: 'mainCtrl',
     }) // end contact
 
     $urlRouterProvider.otherwise('/');
