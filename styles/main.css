@@ -17,6 +17,10 @@ body {
   padding: 20px;
 }
 
+ui-view {
+
+}
+
 /* ----- site title ----- */
 .main-title {
   width: auto;
@@ -53,7 +57,7 @@ body {
 
 
 .nav-bar-top {
-
+  margin-top: 10px;
 }
 
 .nav-bar-top div {
@@ -84,17 +88,97 @@ body {
   width: 80%;
   height: 80%;
   position: absolute;
-  top: 55%;
-  left: 45%;
-  margin: -40% 0 0 -40%;
+  /*top: 55%;
+  left: 45%;*/
+  /*margin: -40% 0 0 -40%;*/
   /*border: 5px grey solid;*/
 
   padding-top: 25px;
+  padding-left: 5%;
   /*display: flex;*/
+
+  /*display: flex;*/
+  /*justify-content: center;
+  margin: auto;*/
+  margin-top: 5%;
 }
 
 .content-title {
   margin: auto;
   display: flex;
   justify-content: space-around;
+}
+
+/* ---------- contact stuff below ---------- */
+
+.contact {
+  /*width: 100%;*/
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  margin-top: 5%;
+}
+
+.contact-form {
+  width: auto;
+  height: auto;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form-top-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-top-left input {
+  width: 275px;
+  margin: 15px;
+  border: none;
+  border-bottom: 5px black solid;
+  /*background: #E0DCF5;*/
+  background: rgb(255, 0, 0, 0);
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.form-top-right {
+
+}
+
+.form-top-right textarea {
+  width: 275px;
+  height: 168px;
+  margin: 10px;
+  border: none;
+  border-bottom: 5px black solid;
+  border-right: 5px black solid;
+  /*background: #E0DCF5;*/
+  background: rgb(255, 0, 0, 0);
+  font-size: 16px;
+  border-radius: 5px;
+  /*rows: 10;*/
+}
+
+.form-bottom {
+
+}
+
+.form-bottom button {
+  margin: 5px;
+  font-size: 16px;
 }

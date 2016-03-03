@@ -2,4 +2,23 @@
 
 <div class="pageContent">
   <h2 class="content-title">Contact Me!</h2>
+
+  <div class="contact">
+    <form class="contact-form" ng-submit="addPost(contact)">
+      <div class="form-top">
+        <div class="form-top-left">
+          <input name="name" ng-model="contact.name" type="text" placeholder="Your name :" required />
+          <input name="email" ng-model="contact.email" type="email" placeholder="Your email :" required />
+          <input name="phone" ng-model="contact.phone" type="phone" placeholder="Your phone :" />
+        </div>
+        <div class="form-top-right">
+          <textarea name="text" ng-model="contact.text" required></textarea>
+        </div>
+      </div>
+      <div class="form-bottom">
+        <button type="submit" ng-disabled="contact.name == undefined || contact.email == undefined" class="contact-submit" type="submit">Send Away!!</div>
+      </div>
+    </form>
+  </div>
+  
 </div>
