@@ -4,7 +4,7 @@ angular.module('myApp')
 
   return {
     restrict: 'E',
-    templateUrl: './views/main.html',
+    templateUrl: 'views/main.html',
   }
 
 
