@@ -4,7 +4,7 @@ angular.module('myApp')
 
   return {
     restrict: 'E',
-    templateUrl: '../views/circles.html',
+    templateUrl: 'views/circles.html',
   }
 
 
