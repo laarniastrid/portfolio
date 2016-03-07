@@ -1,10 +1,10 @@
 angular.module('myApp')
 
-.controller('contactCtrl', function() {
+.controller('contactCtrl', function($scope) {
 
   $scope.addPost = function(data) {
     $.ajax({
-        url: "http://formspree.io/ecriyliz.yilrjsjy@gmail.com",
+        url: "http://formspree.io/laarni.astrid@gmail.com",
         method: "POST",
         data: {
           name: data.name,
