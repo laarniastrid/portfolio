@@ -9,6 +9,12 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
       controller: 'mainCtrl',
     }) // end home
 
+    .state('sketches', {
+      url: '/sketches',
+      templateUrl: 'views/sketches.html',
+      controller: 'mainCtrl',
+    }) // end skills
+
     .state('skills', {
       url: '/skills',
       templateUrl: 'views/skills.html',

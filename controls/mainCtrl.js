@@ -10,6 +10,11 @@ angular.module('myApp')
   $scope.homeIcon = 'fa fa-home fa-3x';
   $scope.homeRoute = 'home';
 
+  // sketches button
+  $scope.sketchVal = "Sketches";
+  $scope.sketchIcon = "fa fa-paint-brush fa-3x";
+  $scope.sketchRoute = "sketches";
+
   // skills button
   $scope.skillsVal = "Skills";
   $scope.skillsIcon = "fa fa-gear fa-3x";
