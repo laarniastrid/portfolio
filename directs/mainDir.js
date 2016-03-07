@@ -3,7 +3,7 @@ angular.module('myApp')
 .directive('mainDir', function() {
 
   return {
-    restrict: 'AE',
+    restrict: 'E',
     templateUrl: './views/main.html',
   }
 
