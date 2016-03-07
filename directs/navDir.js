@@ -3,7 +3,7 @@ angular.module('myApp')
 .directive('navDir', function() {
 
   return {
-    restrict: 'E',
+    restrict: 'AE',
     templateUrl: 'views/navBar.html',
     // controller: 'mainCtrl',
     scope: {
