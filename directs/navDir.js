@@ -11,6 +11,7 @@ angular.module('myApp')
       name: '=',
       icon: '='
     },
+    // controller: 'navCtrl',
     link: function(scope, ele, attr) {
       ele.on('mouseover', function() {
         $('.icon-hover', this).css({
