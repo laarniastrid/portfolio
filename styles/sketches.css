@@ -1,0 +1,15 @@
+.sketch-wrapper {
+  /*margin-top: 5%;*/
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sketch-img {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  background-size: cover;
+}

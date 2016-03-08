@@ -3,7 +3,13 @@
 <div class="pageContent" ng-controller="sketchesCtrl">
   <h2 class="content-title">Sketches!</h2>
 
-  {{navTest}}
-
+  <!-- {{test}} -->
+  <div class="sketch-wrapper">
+    <div ng-repeat="sketch in sketches">
+      <div class="sketch-img" style="background-image: url('{{sketch}}')">
+        <!-- <img class="sketch" src="{{sketch}}" /> -->
+      </div>
+    </div>
+  </div>
 
 </div>
