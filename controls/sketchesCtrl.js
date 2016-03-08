@@ -1,6 +1,6 @@
 angular.module('myApp')
 
-.controller('sketchesCtrl', function($scope) {
+.controller('sketchesCtrl', function($scope, sketchesSvc) {
 
 
 
