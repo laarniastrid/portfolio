@@ -10,10 +10,10 @@
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
-  margin: -50px 0 0 -50px;
+  margin: -60px 0 0 -60px;
   position: absolute;
   /*transform: scale();*/
 }
