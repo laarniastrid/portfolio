@@ -25,21 +25,27 @@ angular.module('myApp')
   $scope.contactIcon = "fa fa-envelope-o fa-3x";
   $scope.contactRoute = "contact";
 
-  /* nav bottom buttons */
+  /* ---------- nav bottom buttons ---------- */
   // github button
   // $scope.gitVal = "Github";
   $scope.gitIcon = "fa fa-github-alt fa-3x";
-  $scope.gitRoute = "home";
+  // $scope.gitRoute = "home";
 
   // linkedin button
   // $scope.linkedVal = "LinkedIn";
   $scope.linkedIcon = "fa fa-linkedin fa-3x";
-  $scope.linkedRoute = "home";
+  // $scope.linkedRoute = "home";
 
-  // twitterbutton
+  // twitter button
   // $scope.twitVal = "Twitter";
   $scope.twitIcon = "fa fa-twitter fa-3x";
-  $scope.twitRoute = "home";
+  // $scope.twitRoute = "home";
+
+  // youtube button
+  // $scope.youtVal = "YouTube";
+  $scope.youtubeIcon = "fa fa-youtube-play fa-3x";
+  // $scope.youtRoute = "home";
+
 
 // trying contact control here.controller('contactCtrl', function($scope) {
 
