@@ -21,6 +21,7 @@
 .c1 {
   /*background: #006699;*/
   background-image: url('../images/whalePic.png');
+  background-repeat: no-repeat;
   background-size: contain;
   top: 65%;
   left: 45%;
