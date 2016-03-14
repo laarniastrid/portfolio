@@ -206,7 +206,7 @@ and (-webkit-max-device-pixel-ratio: 3) {
 
   /* ----- site title ----- */
   .main-title {
-
+    font-size: 150px;
   }
 
   /* ----- nav bar ----- */
@@ -240,12 +240,13 @@ and (-webkit-max-device-pixel-ratio: 3) {
   }
 
   .nav-bar-bottom i {
-
+    font-size: 125px;
   }
 
   .nav-media {
+    font-size: 50px;
     display: flex;
-    padding-top: 10px;
+    padding-top: 30px;
   }
 
 
