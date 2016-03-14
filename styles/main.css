@@ -196,10 +196,7 @@ ui-view {
 /* ---------- media queries ---------- */
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 736px)
-/*and (-webkit-min-device-pixel-ratio: 2)
-and (-webkit-max-device-pixel-ratio: 3) */
-{
+and (max-device-width: 736px) {
   .main-wrapper {
     max-width: 100%;
     padding: 20px;
@@ -231,7 +228,7 @@ and (-webkit-max-device-pixel-ratio: 3) */
     width: 100%;
     height: auto;
     position: fixed;
-    bottom: 50px;
+    bottom: 10px;
     left: 0;
     display: flex;
     flex-direction: row;
