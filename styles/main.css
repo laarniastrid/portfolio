@@ -196,8 +196,9 @@ ui-view {
 /* ---------- media queries ---------- */
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (-webkit-max-device-pixel-ratio: 3) {
   .main-wrapper {
     max-width: 100%;
     padding: 20px;
@@ -205,12 +206,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   /* ----- site title ----- */
   .main-title {
-    padding-left: 0;
+
   }
 
   /* ----- nav bar ----- */
   .nav-bar {
-    padding: 2px;
+
   }
 
   .nav-bar a {
