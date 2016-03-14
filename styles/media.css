@@ -105,51 +105,31 @@ and (max-device-width: 736px) {
 
   /* ----- circles ---- */
   .circle-holder {
-    /*width: 80%;*/
-    /*height: 80%;*/
-    /*position: absolute;*/
-    /*top: 55%;*/
-    /*left: 45%;*/
-    /*margin: -40% 0 0 -40%;*/
-    /*border: 5px grey solid;*/
-    width: auto;
-    height: auto;
-    display: flex;
-    top: auto;
-    left: auto;
-    flex-direction: column;
 
   }
 
   .circle {
-    /*width: 120px;
-    height: 120px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
-    margin: -60px 0 0 -60px;
-    position: absolute;*/
-    /*transform: scale();*/
+    margin: -150px 0 0 -150px;
+    transform: none;
+    z-index: -1;
   }
 
   .c1 {
-    /*background: #006699;*/
-    /*background: url('../images/whalePic.png') no-repeat, center;
-    background-size: cover;
-    top: 65%;
-    left: 45%;*/
-    top: none;
-    left: none;
+    top: 35%;
+    left: 30%;
   }
 
   .c2 {
-    /*background: #009966;
-    top: 40%;
-    left: 30%;*/
+    top: 50%;
+    left: 75%;
   }
 
   .c3 {
-    /*background: #006666;
-    top: 45%;
-    left: 65%;*/
+    top: 65%;
+    left: 30%;
   }
 
   .c1:hover, .c2:hover, .c3:hover {
@@ -157,5 +137,23 @@ and (max-device-width: 736px) {
     height: 200px;
     margin: -100px 0 0 -100px;*/
   }
+
+  /* ----- pulse ----- */
+  @-webkit-keyframes pupulselse {
+      0% { -webkit-transform: scale(1); }
+      50% { -webkit-transform: scale(1.2); }
+      100% { -webkit-transform: scale(1); }
+  }
+  @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+  }
+  .pulse {
+      -webkit-animation: pulse 15s ease infinite;
+      animation: pulse 15s ease infinite;
+  }
+
+
 
 }
