@@ -10,16 +10,18 @@
 }
 
 .circle {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
-  margin: -40px 0 0 -40px;
+  margin: -50px 0 0 -50px;
   position: absolute;
   /*transform: scale();*/
 }
 
 .c1 {
-  background: #006699;
+  /*background: #006699;*/
+  background-image: url('../images/whalePic.png');
+  background-size: contain;
   top: 65%;
   left: 45%;
 }
