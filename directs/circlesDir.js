@@ -6,10 +6,11 @@ angular.module('myApp')
     restrict: 'E',
     templateUrl: 'views/circles.html',
     controller: function($scope) {
-       $scope.whalesSite = function() {
+      $scope.whalesSite = function() {
         //  href='http://laarniastrid.com/noServer';
-        window.location.href = 'http://laarniastrid.com/noServer';
-       }
+        // window.location.href = 'http://laarniastrid.com/noServer';
+        window.open('http://laarniastrid.com/noServer');
+      }
     }
   }
 
