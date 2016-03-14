@@ -106,10 +106,8 @@ and (max-device-width: 736px) {
   /* ----- circles ---- */
   .circle-holder {
     width: auto;
-    min-width: 850px;
-    max-width: 950px;
     height: auto;
-    min-height: 1200px;
+    /*min-height: 1200px;*/
     position: relative;
   }
 
@@ -123,24 +121,24 @@ and (max-device-width: 736px) {
   }
 
   .c1 {
-    top: 20%;
-    left: 50%;
+    top: 250px;
+    left: 425px;
   }
 
   .c2 {
-    top: 55%;
-    left: 50%;
+    top: 650px;
+    left: 425px;
   }
 
   .c3 {
-    top: 90%;
-    left: 50%;
+    top: 1050px;
+    left: 425px;
   }
 
   .c1:hover, .c2:hover, .c3:hover {
-    /*width: 200px;
-    height: 200px;
-    margin: -100px 0 0 -100px;*/
+    width: 450px;
+    height: 450px;
+    margin: -225px 0 0 -225px;
   }
 
   /* ----- pulse ----- */
