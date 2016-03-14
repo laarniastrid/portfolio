@@ -20,8 +20,7 @@
 
 .c1 {
   /*background: #006699;*/
-  background-image: url('../images/whalePic.png');
-  background-repeat: no-repeat;
+  background: url('../images/whalePic.png') no-repeat, center;
   background-size: cover;
   top: 65%;
   left: 45%;
