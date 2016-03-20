@@ -115,7 +115,7 @@ and (max-device-width: 500px) {
   }
 
   .form-top {
-
+    flex-direction: column;
   }
 
   .form-top-left {
@@ -123,7 +123,9 @@ and (max-device-width: 500px) {
   }
 
   .form-top-left input {
-
+    width: 575px;
+    margin-bottom: 30px;
+    font-size: 36px;
   }
 
   .form-top-right {
@@ -131,7 +133,10 @@ and (max-device-width: 500px) {
   }
 
   .form-top-right textarea {
-
+    width: 575px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    height: 360px;
   }
 
   .form-bottom {
@@ -139,6 +144,7 @@ and (max-device-width: 500px) {
   }
 
   .form-bottom button {
+    font-size: 36px;
   }
 
   /* ---------- sketches images ---------- */
