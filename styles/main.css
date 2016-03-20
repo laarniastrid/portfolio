@@ -95,17 +95,21 @@ ui-view {
 
 /* ----- page content ----- */
 .pageContent {
-  /*width: 80%;*/
+  width: 85%;
   height: auto;
   padding-top: 25px;
   padding-right: 6%;
   /*margin-top: 5%;*/
+  padding-left: 3%;
+  /*position: absolute;*/
+  left: 2%;
 }
 
 .content-title {
   margin: auto;
   display: flex;
   justify-content: space-around;
+  /*padding-left: 5%;*/
 }
 
 /* ---------- contact stuff below ---------- */

@@ -88,11 +88,12 @@ and (max-device-width: 500px) {
 
   /* ----- page content ----- */
   .pageContent {
-    /*width: 80%;*/
+    width: 83%;
     /*padding-top: 100px;*/
     position: relative;
     top: 175px;
-    margin: 0;
+    /*margin: 0;*/
+    padding: 0;
   }
 
   .content-title {
@@ -138,7 +139,18 @@ and (max-device-width: 500px) {
   .form-bottom button {
   }
 
-  /* ----- circles ---- */
+  /* ---------- sketches images ---------- */
+  .sketch-wrapper {
+
+  }
+
+  .sketch-img {
+    width: 600px;
+    height: 500px;
+  }
+
+
+  /* ---------- circles ---------- */
   .circle-holder {
     width: auto;
     height: auto;
