@@ -2,12 +2,9 @@ $(document).ready(function() {
 
   // alert('hi there');
 
-
-  $('.nav-media').on('click', function() {
-    $('.nav-bar-top').css({
-      'display': 'flex'
-    })
-  })
+  // $('.content-title').on('click', function() {
+  //   alert('hello');
+  // })
 
 
 

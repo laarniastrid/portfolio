@@ -12,7 +12,8 @@ html, body {
 }*/
 
 body {
-
+  width: 100%;
+  height: 100%;
 }
 
 ui-view {
@@ -94,22 +95,11 @@ ui-view {
 
 /* ----- page content ----- */
 .pageContent {
-  width: 80%;
-  height: 80%;
-  /*position: absolute;*/
-  /*top: 55%;
-  left: 45%;*/
-  /*margin: -40% 0 0 -40%;*/
-  /*border: 5px grey solid;*/
-
+  /*width: 80%;*/
+  height: auto;
   padding-top: 25px;
-  padding-left: 5%;
-  /*display: flex;*/
-
-  /*display: flex;*/
-  /*justify-content: center;
-  margin: auto;*/
-  margin-top: 5%;
+  padding-right: 6%;
+  /*margin-top: 5%;*/
 }
 
 .content-title {

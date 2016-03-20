@@ -5,17 +5,19 @@ and (min-device-width: 320px)
 and (max-device-width: 500px) {
   .main-wrapper {
     max-width: 100%;
-    padding: 20px;
+    /*padding: 20px;*/
+    margin: 0;
   }
 
   /* ----- site title ----- */
   .main-title {
-    font-size: 125px;
+    font-size: 120px;
   }
 
   /* ----- nav bar ----- */
   .nav-bar {
-
+    /*display: none;*/
+    font-size: 30px;
   }
 
   .nav-bar a {
@@ -23,15 +25,8 @@ and (max-device-width: 500px) {
   }
 
   .nav-bar-top {
-    display: none;
-  }
 
-  .nav-bar-top div {
-
-  }
-
-  .nav-bar-bottom {
-    width: 100%;
+    /*width: 100%;
     height: auto;
     position: fixed;
     bottom: 10px;
@@ -39,7 +34,28 @@ and (max-device-width: 500px) {
     display: flex;
     flex-direction: row;
     padding: 0;
-    justify-content: space-around;
+    justify-content: space-around;*/
+  }
+
+  .nav-bar-top div {
+
+  }
+
+  .nav-bar-top i {
+    font-size: 115px;
+  }
+
+  .nav-bar-bottom {
+    /*width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;*/
+    padding-bottom: 35px;
   }
 
   .nav-bar-bottom i {
@@ -47,17 +63,36 @@ and (max-device-width: 500px) {
   }
 
   .nav-media {
-    font-size: 45px;
-    display: flex;
-    padding-top: 25px;
+    /*width: auto;*/
+    /*height: auto;*/
+    /*padding: 3px 15px 3px 15px;*/
+    /*margin: 0;*/
+    /*margin-top: -5px;*/
+    /*border: 5px solid black;*/
+    /*border-radius: 10px;*/
+    /*position: absolute;*/
+    /*float: right;*/
+    /*right: -45px;*/
+    /*top: 15px;*/
+    /*z-index: 999;*/
+    /*font-size: 35px;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+  }
+
+  .nav-media p {
+    margin: 0;
   }
 
 
   /* ----- page content ----- */
   .pageContent {
-    padding-top: 100px;
-    /*padding: 200px auto 100px auto;*/
-    /*margin: 150px auto 25px auto;*/
+    /*width: 80%;*/
+    /*padding-top: 100px;*/
+    position: relative;
+    top: 175px;
+    margin: 0;
   }
 
   .content-title {
