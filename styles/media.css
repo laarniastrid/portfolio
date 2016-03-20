@@ -107,11 +107,10 @@ and (max-device-width: 500px) {
   /* ---------- contact stuff below ---------- */
 
   .contact {
-
+    margin-left: 75px;
   }
 
   .contact-form {
-
   }
 
   .form-top {
