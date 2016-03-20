@@ -107,7 +107,7 @@ and (max-device-width: 500px) {
   /* ---------- contact stuff below ---------- */
 
   .contact {
-    margin-left: 75px;
+    margin-left: 50px;
   }
 
   .contact-form {
@@ -132,7 +132,7 @@ and (max-device-width: 500px) {
   }
 
   .form-top-right textarea {
-    width: 575px;
+    width: 585px;
     margin: auto auto 30px 30px;
     font-size: 36px;
     height: 360px;
