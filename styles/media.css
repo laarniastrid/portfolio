@@ -132,8 +132,8 @@ and (max-device-width: 500px) {
   }
 
   .form-top-right textarea {
-    width: 590px;
-    margin-bottom: 30px;
+    width: 575px;
+    margin: auto auto 30px 30px;
     font-size: 36px;
     height: 360px;
   }
