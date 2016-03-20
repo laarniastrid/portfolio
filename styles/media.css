@@ -100,7 +100,7 @@ and (max-device-width: 500px) {
 
   .content-title {
     font-size: 60px;
-    padding-left: 50px;
+    /*padding-left: 60px;*/
     margin: 0;
   }
 
@@ -179,17 +179,17 @@ and (max-device-width: 500px) {
 
   .c1 {
     top: 250px;
-    left: 425px;
+    left: 400px;
   }
 
   .c2 {
     top: 650px;
-    left: 425px;
+    left: 400px;
   }
 
   .c3 {
     top: 1050px;
-    left: 425px;
+    left: 400px;
   }
 
   .c1:hover, .c2:hover, .c3:hover {
