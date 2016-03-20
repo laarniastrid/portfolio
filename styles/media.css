@@ -132,10 +132,10 @@ and (max-device-width: 500px) {
   }
 
   .form-top-right textarea {
-    width: 575px;
+    width: 585px;
     border-right: none;
     border-left: 5px solid black;
-    margin: auto auto 30px 20px;
+    margin: auto auto 30px 10px;
     font-size: 36px;
     height: 360px;
   }
