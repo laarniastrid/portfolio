@@ -133,7 +133,7 @@ and (max-device-width: 500px) {
 
   .form-top-right textarea {
     width: 585px;
-    margin: auto auto 30px 30px;
+    margin: auto auto 30px 40px;
     font-size: 36px;
     height: 360px;
   }
@@ -144,6 +144,7 @@ and (max-device-width: 500px) {
 
   .form-bottom button {
     font-size: 36px;
+    margin-right: 25px;
   }
 
   /* ---------- sketches images ---------- */
