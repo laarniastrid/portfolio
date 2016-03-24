@@ -25,7 +25,7 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
       url: '/contact',
       templateUrl: 'views/contact.html',
       controller: 'mainCtrl',
-    }) // end contact
+    }); // end contact
 
     $urlRouterProvider.otherwise('/');
-}) // end config
+}); // end config
