@@ -2,7 +2,8 @@
 /* ---------- media queries ---------- */
 @media screen
 and (min-device-width: 300px)
-and (max-device-width: 425px) {
+and (max-device-width: 425px)
+and (orientation: portrait){
   .main-wrapper {
     max-width: 100%;
     /*padding: 20px;*/
