@@ -29,7 +29,7 @@ $(document).ready(function() {
   */
 
   $('.main-wrapper').on('orientationchange', function() {
-    window.location.reload(true);
+    location.reload(true);
   });
 
 
