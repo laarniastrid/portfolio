@@ -244,8 +244,8 @@ and (max-device-width: 425px) {
   }
 
   .modal-image {
-    width: 1050px;
-    height: 875px;
+    width: 960px;
+    height: 800px;
     /*position: absolute;
     top: 50%;
     left: 50%;
