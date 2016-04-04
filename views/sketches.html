@@ -16,11 +16,12 @@
   <div class="modal" ng-if="showModal">
     <div class="modal-overlay" ng-click="modalToggle()"></div>
     <div class="modal-body">
-      <div class="modal-close" ng-click="modalToggle()">
-        <i class="fa fa-times"></i>
-      </div>
       <div class="modal-content">
-        <div class="modal-image" style="background-image: url('{{modalImage}}')"></div>
+        <div class="modal-image" style="background-image: url('{{modalImage}}')">
+          <div class="modal-close" ng-click="modalToggle()">
+            <i class="fa fa-times"></i>
+          </div>
+        </div>
       </div>
     </div>
   </div>

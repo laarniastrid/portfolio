@@ -24,7 +24,7 @@ angular.module('myApp')
       $scope.modalImage = input;
     }
     $scope.showModal = !$scope.showModal;
-    console.log(input);
+    // console.log(input);
   };
 
 }); // end sketchesCtrl

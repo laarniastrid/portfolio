@@ -215,5 +215,43 @@ and (max-device-width: 425px) {
   }
 
 
+  /* ---------- modal styles ---------- */
+  .modal {
+
+  }
+
+  .modal-overlay {
+    width: 115vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position: fixed;;
+    top: 0;
+    left: 0;
+  }
+
+  .modal-body {
+    position: absolute;
+    left: 60%;
+  }
+
+  .modal-close {
+    font-size: 60px;
+    position: absolute;;
+    top: 25px;
+    right: 10px;
+    margin: 0;
+    z-index: 9;
+  }
+
+  .modal-image {
+    width: 1050px;
+    height: 875px;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    background-size: cover;
+  }
+
 
 }
