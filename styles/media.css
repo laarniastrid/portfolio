@@ -1,6 +1,6 @@
 /* ---------- ---------- ---------- ---------- */
 /* ---------- media queries ---------- */
-@media screen
+@media only screen
 and (min-device-width: 300px)
 and (max-device-width: 425px)
 and (orientation: portrait){
@@ -255,4 +255,24 @@ and (orientation: portrait){
   }
 
 
+}
+
+@media only screen
+and (orientation: landscape) {
+  .c1 {
+    top: 40%;
+    left: 50%;
+  }
+
+  .c2 {
+    background: #009966;
+    top: 80%;
+    left: 25%;
+  }
+
+  .c3 {
+    background: #006666;
+    top: 110%;
+    left: 70%;
+  }
 }
