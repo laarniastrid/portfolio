@@ -31,7 +31,7 @@ $(document).ready(function() {
 
   $(window).bind('resize', function() {
     // location.reload();
-    window.reload();
+    $(window).reload();
   });
 
 
