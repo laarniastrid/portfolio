@@ -28,12 +28,11 @@ $(document).ready(function() {
   }
   */
 
-  window.addEventListener('orientationchange', function() {
-    var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
-    document.body.style.display = 'none';
-    setTimeout(function() {
-      document.body.style.display = originalBodyStyle;
-    }, 10);
+
+  $(window).bind('resize', function() {
+    location.reload();
   });
+
+
 
 }); // end document ready
