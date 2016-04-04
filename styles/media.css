@@ -254,12 +254,12 @@ and (orientation: portrait){
     background-size: cover;
   }
 
-
 }
+
 
 @media only screen
 and (orientation: landscape) {
-  .c1 {
+  /*.c1 {
     top: 40%;
     left: 50%;
   }
@@ -274,5 +274,5 @@ and (orientation: landscape) {
     background: #006666;
     top: 100%;
     left: 70%;
-  }
+  }*/
 }
