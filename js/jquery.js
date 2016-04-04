@@ -30,11 +30,7 @@ $(document).ready(function() {
 
 
   $(window).bind('orientationchange resize', function(event) {
-    // location.reload();
-    if (window.rotation) {
-      location.reload();
-    }
-
+    location.reload();
   });
 
 
