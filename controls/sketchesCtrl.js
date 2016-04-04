@@ -17,5 +17,14 @@ angular.module('myApp')
   $scope.theData();
 
 
+  // ----------- show/hide modal ---------- //
+  $scope.showModal = false;
+  $scope.modalToggle = function(input) {
+    if (input) {
+      $scope.modalImage = input;
+    }
+    $scope.showModal = !$scope.showModal;
+    console.log(input);
+  };
 
 }); // end sketchesCtrl

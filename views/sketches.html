@@ -6,8 +6,21 @@
   <!-- {{test}} -->
   <div class="sketch-wrapper">
     <div ng-repeat="sketch in sketches">
-      <div class="sketch-img" style="background-image: url('{{sketch}}')">
+      <div ng-click="modalToggle(this.sketch)" class="sketch-img" style="background-image: url('{{sketch}}')">
         <!-- <img class="sketch" src="{{sketch}}" /> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal" ng-if="showModal">
+    <div class="modal-overlay" ng-click="modalToggle()"></div>
+    <div class="modal-body">
+      <div class="modal-close" ng-click="modalToggle()">
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="modal-content">
+        <div class="modal-image" style="background-image: url('{{modalImage}}')"></div>
       </div>
     </div>
   </div>
