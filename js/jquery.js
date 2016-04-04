@@ -28,8 +28,8 @@ $(document).ready(function() {
   }
   */
 
-  $(window).on('orientationChange', function() {
-    $(window).location.reload();
+  $('.main-wrapper').on('orientationchange', function() {
+    window.location.reload(true);
   });
 
 
