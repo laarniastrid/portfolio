@@ -24,19 +24,19 @@
   /*background: #006699;*/
   background: url('../images/whalePic.png') no-repeat, center;
   background-size: cover;
-  top: 65%;
+  top: 40%;
   left: 45%;
 }
 
 .c2 {
   background: #009966;
-  top: 40%;
+  top: 70%;
   left: 30%;
 }
 
 .c3 {
   background: #006666;
-  top: 45%;
+  top: 60%;
   left: 65%;
 }
 
