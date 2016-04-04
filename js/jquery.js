@@ -29,9 +29,12 @@ $(document).ready(function() {
   */
 
 
-  $(window).bind('resize', function() {
+  $(window).bind('orientationchange resize', function(event) {
     // location.reload();
-    $(window).reload();
+    if (window.rotation) {
+      location.reload();
+    }
+
   });
 
 
