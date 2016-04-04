@@ -7,8 +7,6 @@ $(document).ready(function() {
   // })
 
 
-
-
   /*
   .nav-bar {
     width: auto;
@@ -30,5 +28,9 @@ $(document).ready(function() {
   }
   */
 
+  $(window).on('orientationChange', function() {
+    $(window).location.reload();
+  });
 
-}) // end document ready
+
+}); // end document ready

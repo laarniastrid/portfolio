@@ -10,12 +10,12 @@ angular.module('myApp')
       // console.log($scope.myData);
       $scope.myData.forEach(function(entry) {
         $scope.sketches.push(entry.path);
-      })
-      console.log($scope.sketches);
-    })
-  }
+      });
+      // console.log($scope.sketches);
+    });
+  };
   $scope.theData();
 
 
 
-}) // end sketchesCtrl
+}); // end sketchesCtrl
