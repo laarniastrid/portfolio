@@ -266,13 +266,13 @@ and (orientation: landscape) {
 
   .c2 {
     background: #009966;
-    top: 80%;
+    top: 70%;
     left: 25%;
   }
 
   .c3 {
     background: #006666;
-    top: 110%;
+    top: 100%;
     left: 70%;
   }
 }
