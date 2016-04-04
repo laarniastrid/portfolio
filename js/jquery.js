@@ -28,9 +28,12 @@ $(document).ready(function() {
   }
   */
 
-  $('.main-wrapper').on('orientationchange', function() {
-    location.reload(true);
+  window.addEventListener('orientationchange', function() {
+    var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
+    document.body.style.display = 'none';
+    setTimeout(function() {
+      document.body.style.display = originalBodyStyle;
+    }, 10);
   });
-
 
 }); // end document ready
