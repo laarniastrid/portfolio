@@ -173,11 +173,12 @@ ui-view {
   font-size: 16px;
 }
 
+/* ---------- skills page styles ---------- */
 #skills-icons {
-  width: 650px;
+  width: 900px;
   position: absolute;
-  top: 55%;
-  left: 55%;
+  top: 65%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
@@ -187,5 +188,5 @@ ui-view {
   max-width: 150px;
   height: auto;
   max-width: 150px;
-  margin: 15px;
+  margin: 15px 45px 15px 45px;
 }
