@@ -188,3 +188,20 @@ ui-view {
   margin: 5px;
   font-size: 16px;
 }
+
+#skills-icons {
+  width: 650px;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#skills-icons img {
+  width: auto;
+  max-width: 150px;
+  height: auto;
+  max-width: 150px;
+  margin: 15px;
+}

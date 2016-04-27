@@ -24,21 +24,21 @@
   /*background: #006699;*/
   background: url('../images/whalePic.png') no-repeat, center;
   background-size: cover;
-  top: 40%;
+  top: 35%;
   left: 45%;
 }
 
 .c2 {
   background: #009966;
   background: url('../images/precourse02.PNG') no-repeat, center;
-  top: 70%;
+  top: 65%;
   left: 25%;
 }
 
 .c3 {
   background: #006666;
   background: url('../images/fullStackTroll02.PNG') no-repeat;
-  top: 80%;
+  top: 75%;
   left: 60%;
 }
 

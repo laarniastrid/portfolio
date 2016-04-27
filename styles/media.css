@@ -6,7 +6,6 @@ and (max-device-width: 500px)
 and (orientation: portrait){
   .main-wrapper {
     max-width: 100%;
-    /*padding: 20px;*/
     margin: 0;
   }
 
@@ -18,7 +17,6 @@ and (orientation: portrait){
 
   /* ----- nav bar ----- */
   .nav-bar {
-    /*display: none;*/
     font-size: 30px;
   }
 
@@ -28,15 +26,6 @@ and (orientation: portrait){
 
   .nav-bar-top {
 
-    /*width: 100%;
-    height: auto;
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    justify-content: space-around;*/
   }
 
   .nav-bar-top div {
@@ -48,15 +37,6 @@ and (orientation: portrait){
   }
 
   .nav-bar-bottom {
-    /*width: 100%;
-    height: auto;
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    justify-content: space-around;*/
     padding-bottom: 35px;
   }
 
@@ -65,22 +45,7 @@ and (orientation: portrait){
   }
 
   .nav-media {
-    /*width: auto;*/
-    /*height: auto;*/
-    /*padding: 3px 15px 3px 15px;*/
-    /*margin: 0;*/
-    /*margin-top: -5px;*/
-    /*border: 5px solid black;*/
-    /*border-radius: 10px;*/
-    /*position: absolute;*/
-    /*float: right;*/
-    /*right: -45px;*/
-    /*top: 15px;*/
-    /*z-index: 999;*/
-    /*font-size: 35px;*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
+
   }
 
   .nav-media p {
@@ -91,17 +56,14 @@ and (orientation: portrait){
   /* ----- page content ----- */
   .pageContent {
     width: 83%;
-    /*padding-top: 100px;*/
     position: relative;
     top: 175px;
-    /*margin: 0;*/
     padding: 0;
     left: 0;
   }
 
   .content-title {
     font-size: 60px;
-    /*padding-left: 60px;*/
     margin: 0;
   }
 
@@ -165,7 +127,6 @@ and (orientation: portrait){
   .circle-holder {
     width: auto;
     height: auto;
-    /*min-height: 1200px;*/
     position: relative;
   }
 
@@ -247,32 +208,27 @@ and (orientation: portrait){
   .modal-image {
     width: 960px;
     height: 800px;
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
     background-size: cover;
   }
 
-}
-
-
-@media only screen
-and (orientation: landscape) {
-  /*.c1 {
-    top: 40%;
-    left: 50%;
+  #skills-icons {
+    width: 650px;
+    position: absolute;
+    margin-bottom: 100px;
+    top: 150%;
+    left: 35%;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
   }
 
-  .c2 {
-    background: #009966;
-    top: 70%;
-    left: 25%;
+  #skills-icons img {
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+    max-height: 300px;
+    margin: 30px;
   }
 
-  .c3 {
-    background: #006666;
-    top: 100%;
-    left: 70%;
-  }*/
 }
