@@ -5,13 +5,11 @@ angular.module('myApp')
   return {
     restrict: 'E',
     templateUrl: 'views/navBar.html',
-    // controller: 'mainCtrl',
     scope: {
       link: '=',
       name: '=',
       icon: '='
     },
-    // controller: 'navCtrl',
     link: function(scope, ele, attr) {
       ele.on('mouseover', function() {  // mouseover for icons
         $('.icon-hover', this).css({
@@ -28,16 +26,7 @@ angular.module('myApp')
           'background': 'none',
         })
       });
-
-      // $('.nav-media').on('click', function() {
-      //   $('nav-bar').css({
-      //     'display': 'flex',
-      //   })
-      //   console.log('clicked!');
-      // });
-
     } // end link
-
   }
 
 }) // end of navDir

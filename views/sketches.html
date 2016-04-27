@@ -7,11 +7,9 @@
   <div class="sketch-wrapper">
     <div ng-repeat="sketch in sketches">
       <div ng-click="modalToggle(this.sketch)" class="sketch-img" style="background-image: url('{{sketch}}')">
-        <!-- <img class="sketch" src="{{sketch}}" /> -->
       </div>
     </div>
   </div>
-
 
   <div class="modal" ng-if="showModal">
     <div class="modal-overlay" ng-click="modalToggle()"></div>

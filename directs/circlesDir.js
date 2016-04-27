@@ -20,5 +20,4 @@ angular.module('myApp')
     }
   }
 
-
 }) // end circlesDir

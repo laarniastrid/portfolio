@@ -7,5 +7,4 @@ angular.module('myApp')
     templateUrl: 'views/main.html',
   }
 
-
 }) // end directive

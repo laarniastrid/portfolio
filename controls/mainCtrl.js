@@ -40,6 +40,4 @@ angular.module('myApp')
   $scope.youtubeIcon = 'fa fa-youtube-play fa-3x';
   $scope.youtRoute = 'https://www.youtube.com/user/HardsuitLoL';
 
-
-
 }) // end mainCtrl

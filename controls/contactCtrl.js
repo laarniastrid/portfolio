@@ -14,10 +14,7 @@ angular.module('myApp')
         },
         dataType: "json"
     });
-    // alert('there are bees!');
-    // console.log($scope.contact);
     $scope.contact = '';
   }
-
 
 }) // end of contactCtrl

@@ -5,7 +5,6 @@ angular.module('myApp')
   return {
     restrict: 'E',
     templateUrl: 'views/navBot.html',
-    // controller: 'mainCtrl',
     scope: {
       icon: '=',
       link: '='
@@ -26,7 +25,6 @@ angular.module('myApp')
         });
       });
     }
-
   };
 
 }); // end of navDir
