@@ -30,12 +30,14 @@
 
 .c2 {
   background: #009966;
+  background: url('../images/precourse02.PNG') no-repeat, center;
   top: 70%;
   left: 25%;
 }
 
 .c3 {
   background: #006666;
+  background: url('../images/fullStackTroll02.PNG') no-repeat, center;
   top: 85%;
   left: 65%;
 }

@@ -7,9 +7,15 @@ angular.module('myApp')
     templateUrl: 'views/circles.html',
     controller: function($scope) {
       $scope.whalesSite = function() {
-        //  href='http://laarniastrid.com/noServer';
-        // window.location.href = 'http://laarniastrid.com/noServer';
         window.open('http://laarniastrid.com/noServer');
+      }
+
+      $scope.precourseSite = function() {
+        window.open('http://precourse.herokuapp.com');
+      }
+
+      $scope.trollemSite = function() {
+        window.open('http://trollem.herokuapp.com');
       }
     }
   }
