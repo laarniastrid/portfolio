@@ -37,9 +37,9 @@
 
 .c3 {
   background: #006666;
-  background: url('../images/fullStackTroll02.PNG') no-repeat, center;
-  top: 85%;
-  left: 65%;
+  background: url('../images/fullStackTroll02.PNG') no-repeat;
+  top: 80%;
+  left: 60%;
 }
 
 .c1:hover, .c2:hover, .c3:hover {
